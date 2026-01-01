@@ -18,9 +18,34 @@ flutter pub get
 
 ```bash
 flutter doctor -v
+## Getting Started (Flutter)
+
+Run the project (ZIP)
+
+1. Unzip the project
+
+2. In the project root (`vtech_todo/`), copy env file:
+
+   * Rename `.env.example` → `.env`
+
+3. Install dependencies:
+
+```bash
+flutter pub get
 ```
 
-5. Run on **Android**:
+4. Verify toolchain (recommended):
+
+```bash
+flutter doctor -v
+
+
+flutter clean
+flutter run 
+
+```
+
+5. OR Run on **Android**:
 
 ### Option A: Android Emulator
 

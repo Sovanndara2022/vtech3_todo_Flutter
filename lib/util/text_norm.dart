@@ -1,0 +1,1 @@
+String normalizeTodoText(String input) => input.trim().toLowerCase();
